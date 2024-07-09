@@ -6,10 +6,11 @@ import CandidatePage from './dashboards/CandidatePage';
 import GuestPage from './dashboards/GuestPage';
 import ManagerPage from './dashboards/ManagerPage';
 import LoginComponent from './LoginComponent';
-import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import './App.css'
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
+import UserManagementPage from './pages/UserManagementPage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/candidate" element={<CandidatePage />} />
           <Route path="/guest" element={<GuestPage />} />
           <Route path="/manager" element={<ManagerPage />} />
+          <Route path="/usermanagement" element={<UserManagementPage />} />
         </Routes>
         <FooterComponent />
       </BrowserRouter>
