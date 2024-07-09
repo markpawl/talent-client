@@ -4,6 +4,10 @@
     height:fit-content;
 }
 
+h2{
+    margin-top:5px;
+}
+
 ul{
     list-style: none;
     text-align: left;

@@ -52,7 +52,7 @@ export default function RegisterPage() {
 
     return (
         <div className="content">
-            <div>
+            
                 <h2>Manage Users</h2>
                 {users.length > 0 ? (
                     <ul>
@@ -63,8 +63,13 @@ export default function RegisterPage() {
                 ) : (
                     <p>Loading users...</p>
                 )}
+            <div style={{display:"inline-block",minHeight:35}}>
+            <button 
+                
+                onClick={()=>deleteSelectedUser()}
+                className={(selectedUser  === null)?"hidden":""}
+                >Delete Selected User</button>
             </div>
-            <button onClick={()=>deleteSelectedUser()}>Delete Selected User</button>
         </div>
     )
 }
