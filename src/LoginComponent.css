@@ -1,0 +1,11 @@
+button{
+    font-size: .8em;
+}
+.login{
+    background-color:lightblue;
+    padding: 5px;
+    border: 1px solid blue;
+}
+.hidden{
+    display:none;
+}

@@ -1,0 +1,9 @@
+button{
+    font-size: .8em;
+}
+.footer{
+    background-color:lightblue;
+    padding: 5px;
+    border: 1px solid blue;
+    text-align: left;
+}

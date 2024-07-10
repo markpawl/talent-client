@@ -1,0 +1,28 @@
+.content{
+    border: 1px solid darkgrey;
+    background-color: whitesmoke;
+    height:fit-content;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    margin:0px;
+    padding:0px;
+}
+
+li{
+    padding-left: 5px;;
+}
+
+.selected{
+    color:blue;
+    font-weight: bold;
+}
+
+button{
+    padding: 0.3em .6em;
+    font-size: .8em;
+    background-color: white;
+    border-color:#646cff
+}
